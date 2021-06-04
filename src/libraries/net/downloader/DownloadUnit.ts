@@ -23,6 +23,7 @@ export default class DownloadUnit {
       headers: {
         "User-Agent": remote.session.defaultSession?.getUserAgent(),
         "Accept-Language": "en",
+        "sec-fetch-mode": "cors",
       },
     });
 
